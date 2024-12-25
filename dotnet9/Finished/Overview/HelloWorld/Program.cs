@@ -1,8 +1,8 @@
 ﻿using System;
 
 Console.WriteLine("Hello World!");
-Console.WriteLine("What is your name?");
+Console.WriteLine("你叫什么名字?");
 
-// create a string variable and ask the user for some input
+// 创建一个字符串变量并要求用户输入一些内容
 string str = Console.ReadLine();
-Console.WriteLine("Why, hello there " + str);
+Console.WriteLine("你好，" + str + "，欢迎学习 C#！");
