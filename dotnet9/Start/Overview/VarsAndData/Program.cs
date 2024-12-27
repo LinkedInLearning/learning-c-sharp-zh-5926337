@@ -1,6 +1,7 @@
 ﻿// 声明一些基本的值类型变量
 int i = 10;
 float f = 2.0f;
+double db = 20.0d;
 decimal d = 10.0m;
 bool b = true;
 char c = 'c';
