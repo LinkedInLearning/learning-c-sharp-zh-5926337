@@ -1,7 +1,4 @@
-﻿using System;
-
-
-int theVal = 50;
+﻿int value = 51;
 
 // TODO: if-else 
 
@@ -11,11 +8,11 @@ int theVal = 50;
 
 // 一个只有两种情况的 if-then
 /*
-if (theVal < 50) {
-    Console.WriteLine("theVal is small");
+if (value < 50) {
+    Console.WriteLine("value 比较小");
 }
 else {
-    Console.WriteLine("theVal is large");
+    Console.WriteLine("value 比较大");
 }
 */
 
