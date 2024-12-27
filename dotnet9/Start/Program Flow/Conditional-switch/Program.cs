@@ -1,5 +1,3 @@
-﻿using System;
-
-int theVal = 50;
+﻿int value = 50;
 
 // TODO: The switch statement
