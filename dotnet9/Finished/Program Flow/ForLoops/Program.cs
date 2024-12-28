@@ -1,8 +1,5 @@
-﻿using System;
-
-
-int myVal = 15;
-int[] nums = new int[] { 3, 14, 15, 92, 6 };
+﻿int myVal = 15;
+int[] numbers = [3, 14, 15, 92, 6];
 string str = "The quick brown fox jumps over the lazy dog";
 
 // 使用 for 循环
@@ -15,9 +12,9 @@ Console.WriteLine();
 
 // foreach-in 循环可以用来遍历序列
 Console.WriteLine("使用 foreach 循环:");
-foreach (int i in nums)
+foreach (int number in numbers)
 {
-    Console.WriteLine("i is currently {0}", i);
+    Console.WriteLine("现在 i 的值是 {0}", number);
 }
 
 // 计算字符串中字母 o 的个数
