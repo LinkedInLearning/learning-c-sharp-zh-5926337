@@ -1,12 +1,9 @@
-﻿using System;
-
-
-// 声明一些字符串变量
+﻿// 声明一些字符串变量
 string outstr;
 string str1 = "The quick brown fox jumps over the lazy dog.";
 string str2 = "This is a string";
 string str3 = "THIS is a STRING";
-string[] strs = { "one", "two", "three", "four" };
+string[] strs = ["one", "two", "three", "four"];
 
 // TODO: 获取字符串的长度
 
@@ -24,7 +21,7 @@ string[] strs = { "one", "two", "three", "four" };
 
 
 // TODO: 字符串比较
-// 比较字符串会执行一个序数比较并返回：
+// Compare 方法比较字符串会执行一个序数比较并返回：
 // < 0 : 第一个字符串在排序顺序中排在第二个字符串之前
 // 0 : 第一个和第二个字符串在排序顺序中的位置相同
 // > 0 : 第一个字符串在排序顺序中排在第二个字符串之后
@@ -33,5 +30,7 @@ string[] strs = { "one", "two", "three", "four" };
 // TODO: Equals 方法只返回一个普通的布尔值
 
 
-// TODO: 字符串搜索
+// TODO: 字符串搜索: IndexOf 和 LastIndexOf 方法
 
+
+// TODO: 字符串替换: Replace 方法
