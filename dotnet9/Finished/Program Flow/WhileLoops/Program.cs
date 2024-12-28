@@ -1,15 +1,11 @@
-﻿using System;
+﻿string inputValue = "";
 
-
-string inputStr = "";
-
-// while 循环的基本结构是在门控条件为真时执行
+// while 循环的基本结构是在条件为真时执行
 Console.WriteLine("使用 while 循环:");
-while (inputStr != "exit")
+while (inputValue != "exit")
 {
-    inputStr = Console.ReadLine();
-
-    Console.WriteLine("你输入了: {0}", inputStr);
+    inputValue = Console.ReadLine();
+    Console.WriteLine("你输入了: {0}", inputValue);
 }
 Console.WriteLine();
 
@@ -17,9 +13,8 @@ Console.WriteLine();
 Console.WriteLine("使用 do-while() 循环:");
 do
 {
-    inputStr = Console.ReadLine();
+    inputValue = Console.ReadLine();
+    Console.WriteLine("你输入了: {0}", inputValue);
+} while (inputValue != "exit");
 
-    Console.WriteLine("你输入了: {0}", inputStr);
-} while (inputStr != "exit");
-Console.WriteLine();
 
