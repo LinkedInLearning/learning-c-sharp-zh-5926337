@@ -1,21 +1,18 @@
-﻿using System;
+﻿int[] values = [15, 7, 12, 23, 41, 28, 9, 17, 36];
 
-
-int[] values = { 15, 7, 12, 23, 41, 28, 9, 17, 36 };
-
-Console.WriteLine("Using break and continue :");
-foreach (int val in values)
+Console.WriteLine("使用 break 和 continue :");
+foreach (int value in values)
 {
     // continue 语句跳过循环的剩余部分，直接进入下一次迭代
-    if (val >= 20 && val <= 29)
+    if (value >= 20 && value <= 29)
     {
         continue;
     }
 
-    Console.WriteLine($"val 的值是 {val}");
+    Console.WriteLine($"val 的值是 {value}");
 
     // break 语句会终止循环并退出
-    if (val >= 40)
+    if (value >= 40)
     {
         break;
     }
