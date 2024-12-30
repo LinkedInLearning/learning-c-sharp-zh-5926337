@@ -1,5 +1,4 @@
-﻿using System;
-using System.Text;
+﻿using System.Text;
 
 // 创建一个 StringBuilder
 StringBuilder sb = new StringBuilder("Initial String. ", 200);
@@ -7,7 +6,7 @@ int jumpCount = 10;
 string[] animals = ["goats", "cats", "pigs"];
 
 // 打印一些关于 StringBuilder 的基本统计信息
-Console.WriteLine($"Capacity: {sb.Capacity}; Length: {sb.Length}");
+Console.WriteLine($"容量: {sb.Capacity}; 长度: {sb.Length}");
 
 // 使用 Append 方法向 builder 添加一些字符串
 sb.Append("The quick brown fox ");
