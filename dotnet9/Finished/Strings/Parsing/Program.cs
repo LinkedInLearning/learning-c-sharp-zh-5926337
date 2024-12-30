@@ -1,32 +1,30 @@
-﻿using System;
-using System.Globalization;
+﻿using System.Globalization;
 
-
-string numStr1 = "1";
-string numStr2 = "2.00";
-string numStr3 = "3,000";
-string numStr4 = "3,000.00";
+string numString1 = "1";
+string numString2 = "2.00";
+string numString3 = "3,000";
+string numString4 = "3,000.00";
 
 // 在这个例子里，Parse 方法尝试将字符串解析为数字，但可能会引发异常，因此我们需要捕获异常
-int targetNum;
+int targetNumber;
 try
 {
     // 使用 Parse 方法尝试解析一个简单的整数
-    targetNum = int.Parse(numStr1);
-    Console.WriteLine($"{targetNum}");
+    targetNumber = int.Parse(numString1);
+    Console.WriteLine($"{targetNumber}");
 
     // 使用 Parse 方法尝试解析一个浮点数。
     // 这只有在小数值为 0 时才有效
-    targetNum = int.Parse(numStr2, NumberStyles.Float);
-    Console.WriteLine($"{targetNum}");
+    targetNumber = int.Parse(numString2, NumberStyles.Float);
+    Console.WriteLine($"{targetNumber}");
 
     // 使用 Parse 方法尝试解析一个带有千位分隔符的数字
-    targetNum = int.Parse(numStr3, NumberStyles.AllowThousands);
-    Console.WriteLine($"{targetNum}");
+    targetNumber = int.Parse(numString3, NumberStyles.AllowThousands);
+    Console.WriteLine($"{targetNumber}");
 
     // 使用 Parse 方法尝试解析一个带有千位分隔符和小数点的数字
-    targetNum = int.Parse(numStr4, NumberStyles.AllowThousands | NumberStyles.Float);
-    Console.WriteLine($"{targetNum}");
+    targetNumber = int.Parse(numString4, NumberStyles.AllowThousands | NumberStyles.Float);
+    Console.WriteLine($"{targetNumber}");
 
     // 这种方法也适用于其他类型，比如布尔值
     Console.WriteLine($"{bool.Parse("True")}");
@@ -41,9 +39,9 @@ catch
 
 // TryParse 方法类似，但会处理异常
 bool succeeded = false;
-succeeded = Int32.TryParse(numStr1, out targetNum);
+succeeded = int.TryParse(numString1, out targetNumber);
 if (succeeded)
 {
-    Console.WriteLine($"{targetNum}");
+    Console.WriteLine($"{targetNumber}");
 }
 
