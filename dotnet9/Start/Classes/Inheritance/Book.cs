@@ -7,7 +7,7 @@ class Book
     private int _pageCount;
     private decimal _price;
 
-    // use the base() keyword to initialize the base class
+    // TODO: 使用 base() 关键字初始化基类
     public Book(string name, string author, int pageCount, decimal price)
     {
         _author = author;
@@ -19,6 +19,6 @@ class Book
         set => _author = value;
     }
 
-    // TODO: use the override keyword to override a base class method
+    // TODO: 使用 override 关键字重写基类方法
 
 }

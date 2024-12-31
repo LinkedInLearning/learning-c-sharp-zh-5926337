@@ -39,4 +39,8 @@ class Publication
     }
 
     // 使用 virtual 关键字来指示一个方法可以被子类重写以自定义行为
+    public virtual string GetDescription()
+    {
+        return $"{Name}, {PageCount} 页";
+    }
 }
