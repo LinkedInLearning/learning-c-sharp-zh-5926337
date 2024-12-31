@@ -49,7 +49,7 @@ class Book
     }
 
     // 属性可以自动生成 - 如果没有后备字段，则属性可以保存数据
-    public string ISBN
+    public string? ISBN
     {
         get; set;
     }
