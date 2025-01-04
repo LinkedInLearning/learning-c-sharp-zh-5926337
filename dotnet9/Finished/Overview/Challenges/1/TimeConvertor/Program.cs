@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
-Console.WriteLine("输入秒数：");
+Console.WriteLine("Enter the time in seconds:");
 int totalSeconds = int.Parse(Console.ReadLine());
 
 // 实现你的逻辑
