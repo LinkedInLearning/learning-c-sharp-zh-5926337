@@ -1,5 +1,8 @@
 # 学习 C#
-这是 LinkedIn Learning 课程学习 C#的存储库。在[LinkedIn Learning][lil-course-url]上观看完整课程。
+这是 LinkedIn Learning 课程学习 C#的存储库。在[LinkedIn Learning](https://www.linkedin.com/learning/learning-c-sharp-24014010)上观看完整课程。
+
+![image](https://github.com/user-attachments/assets/ead9d33f-592e-4e68-a76f-8f78d215f773)
+
 
 本课程旨在帮助初学者掌握 C# 编程基础，为后续开发打下坚实基础。课程涵盖 C# 概述、控制流、字符串操作、函数和面向对象编程（OOP）。首先，课程将介绍 C# 语言特点及开发环境，帮助你编写第一个 C# 程序。接着，我们将学习变量、数据类型、条件语句及循环结构，掌握程序控制流。接下来，我们将深入字符串操作、函数方法的定义、调用及参数传递。最后，我们还将系统学习类与面向对象编程的核心概念。通过本课程，学员将能编写结构化 C# 代码，理解面向对象思想，为进阶学习 ASP.NET、Unity 开发等提供坚实基础。
 
